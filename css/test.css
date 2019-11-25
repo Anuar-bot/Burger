@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  background: gray;
+  padding-top: 100px;
+}
+
+.container {
+  padding: 10px;
+  border: 1px solid rgb(108, 66, 151);
+  border-radius: 5px;
+  /* height: 300px; */
+  display: flex;
+}
+
+.item:nth-child(3) {
+  order: -1;
+}
+.item:nth-child(2) {
+  order: 100;
+}
+.item {
+  padding: 10px;
+  color: red;
+  font-family: sans-serif;
+  border-radius: 5px;
+  background: rosybrown;
+  border: 1px solid rgb(39, 199, 18);
+  /* width: 300px; */
+}

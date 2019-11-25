@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.42;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  @include gagalin();
+  font-size: 72px;
+  color: $yellow;
+  line-height: 1;
+
+  &--color {
+    &--black {
+      color: $black;
+    }
+
+    &--white {
+      color: --$white;
+    }
+  }
+
+  &--centered {
+    text-align: center;
+  }
+}

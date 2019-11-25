@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Gagalin-Regular';
+  src: url('/fonts/Gagalin-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lifehack-Medium';
+  src: url('/fonts/Lifehack-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@mixin gagalin() {
+  font-family: 'Gagalin-Regular', Helvetica, sans-serif;
+}
+
+@mixin lifehack() {
+  font-family: 'Lifehack-Medium';
+}
